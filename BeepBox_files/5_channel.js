@@ -202,7 +202,7 @@ var beepbox;
     Music.instrumentsMax = 64;
     Music.partNames = ["triples", "standard", "arpfest", "smaller arpfest", "ninths", "sixths", "fifths", "fiftieths", "eighths"];
     Music.partCounts = [3, 4, 16, 12, 9, 6, 5, 50, 8];
-	Music.waveNames = ["triangle", "square", "pulse wide", "pulse narrow", "sawtooth", "double saw", "double pulse", "spiky", "plateau", "glitch", "10% pulse", "sunsoft bass", "loud pulse", "sax", "guitar", "sine", "atari bass", "atari pulse", "1% pulse", "curved sawtooth", "viola (currently not working, sorryyyy)", "brass", "acoustic bass"];
+	Music.waveNames = ["triangle", "square", "pulse wide", "pulse narrow", "sawtooth", "double saw", "double pulse", "spiky", "plateau", "glitch", "10% pulse", "sunsoft bass", "loud pulse", "sax", "guitar", "sine", "atari bass", "atari pulse", "1% pulse", "curved sawtooth", "viola", "brass", "acoustic bass"];
     Music.waveVolumes = [1.0, 0.5, 0.5, 0.5, 0.65, 0.5, 0.4, 0.4, 0.94, 0.5, 0.5, 1.0, 0.6, 0.2, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0];
     Music.drumNames = ["retro", "white","periodic","detuned periodic","shine"];
     Music.drumVolumes = [0.25, 1.0, 1.0, 0.75, 0.75];
