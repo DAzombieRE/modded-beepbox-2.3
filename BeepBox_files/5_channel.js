@@ -220,7 +220,7 @@ var beepbox;
     Music.chorusVolumes = [0.9, 0.9, 1.0, 1.0, 0.95, 0.95, 0.9, 1.0, 1.0, 1.0, 0.95, 0.975, 0.95, 1.0, 0.975];
     Music.volumeNames = ["loudest", "loud1", "loud", "medium1", "medium", "quiet1", "quiet", "quietest1", "quietest", "mute"];
     Music.volumeValues = [0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, -1.0];
-    Music.channelVolumes = [0.27, 0.27, 0.27, 0.27, 0.19];
+    Music.channelVolumes = [0.27, 0.27, 0.27, 0.27, 0.19]; 
     Music.drumInterval = 6;
     Music.numChannels = 5;
     Music.drumCount = 12;
