@@ -187,7 +187,7 @@ var beepbox;
     Music.reverbRange = 4;
 	Music.riffRange = 11;
 	Music.blendRange = 4;
-    Music.keyColors =       ["#444444", "#666666", "#888888", "#aaaaaa", "#262626"];
+    Music.keyColors =      ["#444444", "#666666", "#888888", "#aaaaaa", "#262626"];
     Music.fifthColors =     ["#446688", "#668844", "#684684", "#468468", "#886644"];
     Music.wordColors =      ["#ffffff", "#00ff00", "#00ffff", "#bb22bb", "#3399ff"];
     Music.sliderColors =    ["#9900cc", "#ff0000", "#0000ff", "#ffff00", "#ff6699"];
