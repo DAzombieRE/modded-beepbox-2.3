@@ -234,7 +234,7 @@ var beepbox;
     Config.filterBases = [2.0, 3.5, 5.0, 1.0, 2.5, 4.0, -1.0, 4.0, 6.0, 0.0, 1.0];
     Config.filterDecays = [0.0, 0.0, 0.0, 10.0, 7.0, 4.0, 0.2, 0.2, 0.3, 0.0, 0.0];
     Config.filterVolumes = [0.4, 0.7, 1.0, 0.5, 0.75, 1.0, 0.5, 0.75, 0.4, 0.4, 1.0];
-    Config.envelopeNames = ["seamless", "sudden", "smooth", "slide", "trill", "click", "bow"]
+    Config.envelopeNames = ["seamless", "sudden", "smooth", "slide"]
     Config.effectNames = ["none", "vibrato light", "vibrato delayed", "vibrato heavy", "tremelo light", "tremelo heavy", "alien", "stutter", "strum"];
     Config.effectVibratos = [0.0, 0.15, 0.3, 0.45, 0.0, 0.0, 1.0, 0.0, 0.05];
     Config.effectTremelos = [0.0, 0.0, 0.0, 0.0, 0.25, 0.5, 0.0, 1.0, 0.025];
@@ -261,7 +261,7 @@ var beepbox;
     Config.pitchChannelCountMin = 1;
     Config.pitchChannelCountMax = 6;
     Config.drumChannelCountMin = 0;
-    Config.drumChannelCountMax = 2;
+    Config.drumChannelCountMax = 3;
     Config.waves = [
         Config._centerWave([1.0 / 15.0, 3.0 / 15.0, 5.0 / 15.0, 7.0 / 15.0, 9.0 / 15.0, 11.0 / 15.0, 13.0 / 15.0, 15.0 / 15.0, 15.0 / 15.0, 13.0 / 15.0, 11.0 / 15.0, 9.0 / 15.0, 7.0 / 15.0, 5.0 / 15.0, 3.0 / 15.0, 1.0 / 15.0, -1.0 / 15.0, -3.0 / 15.0, -5.0 / 15.0, -7.0 / 15.0, -9.0 / 15.0, -11.0 / 15.0, -13.0 / 15.0, -15.0 / 15.0, -15.0 / 15.0, -13.0 / 15.0, -11.0 / 15.0, -9.0 / 15.0, -7.0 / 15.0, -5.0 / 15.0, -3.0 / 15.0, -1.0 / 15.0]),
         Config._centerWave([1.0, -1.0]),
@@ -1843,15 +1843,6 @@ var beepbox;
                     if (envelope == 0) {
                         inhibitRestart = true;
                     }
-                    else if (envelope == 4) {
-                        arpeggioVolumeEnd = 0.0
-		    }
-                    else if (envelope == 5) {
-                        arpeggioIntervalStart = 100.0
-		    }
-                    else if (envelope == 6) {
-                        arpeggioIntervalStart = -1.0
-		    }
                     else if (envelope == 2) {
                         arpeggioVolumeStart = 0.0;
                     }
