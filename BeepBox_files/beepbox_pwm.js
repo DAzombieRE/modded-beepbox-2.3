@@ -1843,15 +1843,15 @@ var beepbox;
                     if (envelope == 0) {
                         inhibitRestart = true;
                     }
-                            else if (envelope == 4) {
-                                arpeggioVolumeEnd = 0.0
-							}
-                            else if (envelope == 5) {
-                                arpeggioIntervalStart = 100.0
-							}
-                            else if (envelope == 6) {
-                                arpeggioIntervalStart = -1.0
-							}
+                    else if (envelope == 4) {
+                        arpeggioVolumeEnd = 0.0
+		    }
+                    else if (envelope == 5) {
+                        arpeggioIntervalStart = 100.0
+		    }
+                    else if (envelope == 6) {
+                        arpeggioIntervalStart = -1.0
+		    }
                     else if (envelope == 2) {
                         arpeggioVolumeStart = 0.0;
                     }
