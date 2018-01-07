@@ -240,7 +240,7 @@ var beepbox;
     Config.filterBases = [2.0, 3.5, 5.0, 1.0, 2.5, 4.0, -1.0, 4.0, 6.0, 0.0, 1.0];
     Config.filterDecays = [0.0, 0.0, 0.0, 10.0, 7.0, 4.0, 0.2, 0.2, 0.3, 0.0, 0.0];
     Config.filterVolumes = [0.4, 0.7, 1.0, 0.5, 0.75, 1.0, 0.5, 0.75, 0.4, 0.4, 1.0];
-    Config.envelopeNames = ["seamless", "sudden", "smooth", "slide", "trill", "click", "bow"];
+    Config.envelopeNames = ["seamless", "sudden", "smooth", "slide"];
     Config.effectNames = ["none", "vibrato light", "vibrato delayed", "vibrato heavy", "tremelo light", "tremelo heavy", "alien", "stutter", "strum"];
     Config.effectVibratos = [0.0, 0.15, 0.3, 0.45, 0.0, 0.0, 1.0, 0.0, 0.05];
     Config.effectTremelos = [0.0, 0.0, 0.0, 0.0, 0.25, 0.5, 0.0, 1.0, 0.025];
