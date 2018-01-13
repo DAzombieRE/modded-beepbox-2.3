@@ -231,7 +231,7 @@ var beepbox;
     Config.partCounts = [3, 4, 6, 8, 16, 12, 9, 5, 50];
     Config.waveNames = ["triangle", "square", "pulse wide", "pulse narrow", "sawtooth", "double saw", "double pulse", "spiky", "plateau", "glitch", "10% pulse", "sunsoft bass", "loud pulse", "sax", "guitar", "sine", "atari bass", "atari pulse", "1% pulse", "curved sawtooth", "viola", "brass", "acoustic bass"];
     Config.waveVolumes = [1.0, 0.5, 0.5, 0.5, 0.65, 0.5, 0.4, 0.4, 0.94, 0.5, 0.5, 1.0, 0.6, 0.2, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0];
-    drumNames = ["retro", "white", "clang", "buzz", "hollow"];
+    Config.drumNames = ["retro", "white", "clang", "buzz", "hollow"];
     Config.drumVolumes = [0.25, 1.0, 0.4, 0.3, 1.5];
     Config.drumPitchRoots = [69, 69, 69, 69, 96];
     Config.drumPitchFilterMult = [100.0, 8.0, 100.0, 100.0, 1.0];
