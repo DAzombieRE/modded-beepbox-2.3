@@ -191,7 +191,7 @@ var beepbox;
         };
         return Config;
     }());
-    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert", "monotonic c", "monotonic g", "beep bishop", "challenge", "challenge+", "enigma+"];];
+    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert"];
     Config.scaleFlags = [
         [true, false, true, false, true, false, false, true, false, true, false, false],
         [true, false, false, true, false, true, false, true, false, false, true, false],
@@ -205,12 +205,6 @@ var beepbox;
         [true, false, true, true, false, false, true, true, true, false, false, true],
         [true, false, true, false, true, false, true, false, true, false, true, false],
         [true, true, true, true, true, true, true, true, true, true, true, true],
-        [true, false, false, false, false, false, false, false, false, false, false, false],
-		[false, false, false, false, false, false, false, true, false, false, false, false],
-		[true, true, false, true, true, true, true, true, true, false, true, false],
-		[false, true, true, true, true, true, true, true, true, true, true, true],
-		[false, true, true, true, true, true, true, false, true, true, true, true],
-		[true, true, false, true, true, false, true, true, false, true, true, false],
     ];
     Config.pianoScaleFlags = [true, false, true, false, true, true, false, true, false, true, false, true];
     Config.blackKeyNameParents = [-1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1];
@@ -219,14 +213,14 @@ var beepbox;
     Config.keyTransposes = [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12];
     Config.tempoNames = ["molasses", "slow", "leisurely", "moderate", "steady", "brisk", "hasty", "fast", "strenuous", "grueling", "hyper", "ludicrous"];
     Config.reverbRange = 4;
-    Config.beatsPerBarMin = 1;
-    Config.beatsPerBarMax = 16;
+    Config.beatsPerBarMin = 3;
+    Config.beatsPerBarMax = 15;
     Config.barCountMin = 1;
-    Config.barCountMax = 255;
+    Config.barCountMax = 128;
     Config.patternsPerChannelMin = 1;
     Config.patternsPerChannelMax = 64;
     Config.instrumentsPerChannelMin = 1;
-    Config.instrumentsPerChannelMax = 64;
+    Config.instrumentsPerChannelMax = 10;
     Config.partNames = ["÷·3 (triplets)", "÷·4 (standard)", "÷·6", "÷·8", "÷·16 (arpfest)", "÷·12 (smaller arpfest)", "÷·9 (ninths)", "÷·5 (fifths)", "÷·50 (fiftieths)"];
     Config.partCounts = [3, 4, 6, 8, 16, 12, 9, 5, 50];
     Config.waveNames = ["triangle", "square", "pulse wide", "pulse narrow", "sawtooth", "double saw", "double pulse", "spiky", "plateau"];
