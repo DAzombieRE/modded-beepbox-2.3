@@ -191,7 +191,7 @@ var beepbox;
         };
         return Config;
     }());
-    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert", "monotonic c", "monotonic g", "beep bishop", "challenge", "challenge+", "enigma+"];];
+    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert"];
     Config.scaleFlags = [
         [true, false, true, false, true, false, false, true, false, true, false, false],
         [true, false, false, true, false, true, false, true, false, false, true, false],
@@ -205,12 +205,6 @@ var beepbox;
         [true, false, true, true, false, false, true, true, true, false, false, true],
         [true, false, true, false, true, false, true, false, true, false, true, false],
         [true, true, true, true, true, true, true, true, true, true, true, true],
-        [true, false, false, false, false, false, false, false, false, false, false, false],
-		[false, false, false, false, false, false, false, true, false, false, false, false],
-		[true, true, false, true, true, true, true, true, true, false, true, false],
-		[false, true, true, true, true, true, true, true, true, true, true, true],
-		[false, true, true, true, true, true, true, false, true, true, true, true],
-		[true, true, false, true, true, false, true, true, false, true, true, false],
     ];
     Config.pianoScaleFlags = [true, false, true, false, true, true, false, true, false, true, false, true];
     Config.blackKeyNameParents = [-1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1];
