@@ -191,7 +191,7 @@ var beepbox;
         };
         return Config;
     }());
-    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert"];
+    Config.scaleNames = ["easy :)", "easy :(", "island :)", "island :(", "blues :)", "blues :(", "normal :)", "normal :(", "dbl harmonic :)", "dbl harmonic :(", "enigma", "expert", "monotonic c", "monotonic g", "beep bishop", "challenge", "challenge+", "enigma+"];];
     Config.scaleFlags = [
         [true, false, true, false, true, false, false, true, false, true, false, false],
         [true, false, false, true, false, true, false, true, false, false, true, false],
@@ -205,6 +205,12 @@ var beepbox;
         [true, false, true, true, false, false, true, true, true, false, false, true],
         [true, false, true, false, true, false, true, false, true, false, true, false],
         [true, true, true, true, true, true, true, true, true, true, true, true],
+        [true, false, false, false, false, false, false, false, false, false, false, false],
+		[false, false, false, false, false, false, false, true, false, false, false, false],
+		[true, true, false, true, true, true, true, true, true, false, true, false],
+		[false, true, true, true, true, true, true, true, true, true, true, true],
+		[false, true, true, true, true, true, true, false, true, true, true, true],
+		[true, true, false, true, true, false, true, true, false, true, true, false],
     ];
     Config.pianoScaleFlags = [true, false, true, false, true, true, false, true, false, true, false, true];
     Config.blackKeyNameParents = [-1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1];
@@ -239,11 +245,11 @@ var beepbox;
     Config.effectVibratos = [0.0, 0.15, 0.3, 0.45, 0.0, 0.0];
     Config.effectTremolos = [0.0, 0.0, 0.0, 0.0, 0.25, 0.5];
     Config.effectVibratoDelays = [0, 0, 3, 0, 0, 0];
-    Config.chorusNames = ["union", "shimmer", "hum", "honky tonk", "dissonant", "fifths", "octaves", "bowed", "custom harmony"];
-    Config.chorusIntervals = [0.0, 0.02, 0.05, 0.1, 0.25, 3.5, 6, 0.02, 0.05];
-    Config.chorusOffsets = [0.0, 0.0, 0.0, 0.0, 0.0, 3.5, 6, 0.0, 0.0];
-    Config.chorusVolumes = [0.7, 0.8, 1.0, 1.0, 0.9, 0.9, 0.8, 1.0, 1.0];
-    Config.chorusHarmonizes = [false, false, false, false, false, false, false, false, true];
+    Config.chorusNames = ["union", "shimmer", "hum", "honky tonk", "dissonant", "fifths", "octaves", "bowed", "custom harmony", "detuned custom harmony", "rising", "vibrate", "fourths", "bass", "dirty", "stationary"];];
+    Config.chorusIntervals = [0.0, 0.02, 0.05, 0.1, 0.25, 3.5, 6, 0.02, 0.05, 0.05, 1.0, 3.5, 4, 0.0, 0.0, 3.5];
+    Config.chorusOffsets = [0.0, 0.0, 0.0, 0.0, 0.0, 3.5, 6, 0.0, 0.0, 0.0, 0.7, 7, 4, -7, 0.1, 0.0];
+    Config.chorusVolumes = [0.7, 0.8, 1.0, 1.0, 0.9, 0.9, 0.8, 1.0, 1.0, 1.0, 0.95, 0.975, 0.95, 1.0, 0.975, 0.9];
+    Config.chorusHarmonizes = [false, false, false, false, false, false, false, false, true, true, false, false, false, false, false, false];
     Config.volumeNames = ["loudest", "loud", "medium", "quiet", "quietest", "mute"];
     Config.volumeValues = [0.0, 0.5, 1.0, 1.5, 2.0, -1.0];
     Config.pitchChannelColorsDim = ["#0099a1", "#a1a100", "#c75000", "#00a100", "#d020d0", "#7777b0"];
