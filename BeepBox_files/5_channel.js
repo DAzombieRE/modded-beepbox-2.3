@@ -241,7 +241,7 @@ var beepbox;
     Config.effectVibratoDelays = [0, 0, 3, 0, 0, 0];
     Config.chorusNames = ["union", "shimmer", "hum", "honky tonk", "dissonant", "fifths", "octaves", "bowed", "spinner", "detune", "rising", "vibrate", "fourths", "bass", "custom harmony"];
     Config.chorusIntervals = [0.0, 0.02, 0.05, 0.1, 0.25, 3.5, 6, 0.02, 0.02, 0.0, 1.0, 3.5, 4, 0, 0.05];
-    Config.chorusOffsets = [0.0, 0.0, 0.0, 0.0, 0.0, 3.5, 6, 0.0, 0.0, 0.25, 0.7, 7, 4, -7 0.0];
+    Config.chorusOffsets = [0.0, 0.0, 0.0, 0.0, 0.0, 3.5, 6, 0.0, 0.0, 0.25, 0.7, 7, 4, -7, 0.0];
     Config.chorusVolumes = [0.7, 0.8, 1.0, 1.0, 0.9, 0.9, 0.8, 1.0, 1.0, 1.0, 0.95, 0.975, 0.95, 1.0];,
     Config.chorusHarmonizes = [false, false, false, false, false, false, false, false, true];
     Config.volumeNames = ["loudest", "loud", "medium", "quiet", "quietest", "mute"];
