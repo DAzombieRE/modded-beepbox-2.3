@@ -1211,7 +1211,7 @@ var beepbox;
                     var letter = key.charAt(0).toUpperCase();
                     var symbol = key.charAt(1).toLowerCase();
                     var letterMap = { "C": 11, "D": 9, "E": 7, "F": 6, "G": 4, "A": 2, "B": 0 };
-                    var accidentalMap = { "#": -1, "â™¯": -1, "b": 1, "â™­": 1 };
+                    var accidentalMap = { "♭": -1, "♭": -1, "#": 1, "♭": 1 };
                     var index = letterMap[letter];
                     var offset = accidentalMap[symbol];
                     if (index != undefined) {
